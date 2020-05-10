@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: midnightblue;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+/* Container */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 250px);
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+  border: 10px solid #333;
+  border-radius: 30px;
+}
